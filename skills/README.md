@@ -9,7 +9,7 @@ A **Claude skill** is a reusable `.claude/skills` folder (markdown + optional sc
 - [scroll-craft](https://github.com/nateherkai/scroll-craft) — scroll-driven website workflow, supporting tools and visual verification.
 - [scroll-world](https://github.com/oso95/scroll-world) — generated scene/video chain scrubbed by scroll; check media requirements and costs.
 - [ui-ux-pro-max](ui-ux-pro-max.md) — design system from one prompt: 50+ styles, 161 palettes, 57 font pairings.
-- [frontend-design](frontend-design.md) — Anthropic's official skill that kills generic AI-slop UI.
+- [frontend-design](frontend-design.md) — Anthropic's workflow for choosing a visual direction and implementing interfaces.
 
 ## SEO & growth
 - [claude-seo](claude-seo.md) — full SEO + GEO suite: audit, schema, backlinks, AI-search optimization.
