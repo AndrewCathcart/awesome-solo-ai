@@ -39,6 +39,8 @@ Review the webhook handler carefully. Verify that it checks the Stripe signature
 
 The welcome email fires from the `checkout.session.completed` webhook handler, immediately after the subscription row is written. Use Resend's React email templates — they render consistently and Claude Code can write them. The "payment failed" email fires from `invoice.payment_failed` with a direct link to the Stripe customer portal. The "trial ending" email is a scheduled job (a Supabase cron or a Vercel cron) that queries for subscriptions expiring in 3 days and sends via Resend.
 
+When users ask questions the emails don't answer, [this walkthrough by one of Deacon's founders](../guides/support-chat-from-your-docs.md) feeds a few docs to Deacon, tests a question they don't cover, and turns it into a docs update and a reply.
+
 Three emails, one session, Stripe from day one. Everything you add later builds on a foundation that already works.
 
 ---
